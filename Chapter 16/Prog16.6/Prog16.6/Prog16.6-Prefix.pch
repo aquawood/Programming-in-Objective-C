@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Prog16.6' target in the 'Prog16.6' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

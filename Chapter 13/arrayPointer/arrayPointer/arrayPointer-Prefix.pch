@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'arrayPointer' target in the 'arrayPointer' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

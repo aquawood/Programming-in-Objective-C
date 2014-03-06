@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PathOpt' target in the 'PathOpt' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

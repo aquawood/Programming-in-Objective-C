@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Square' target in the 'Square' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

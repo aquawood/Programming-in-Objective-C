@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Archcopy' target in the 'Archcopy' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

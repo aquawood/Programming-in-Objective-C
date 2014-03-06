@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'copyObj' target in the 'copyObj' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

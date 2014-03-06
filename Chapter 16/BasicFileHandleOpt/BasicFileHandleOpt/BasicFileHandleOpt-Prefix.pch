@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BasicFileHandleOpt' target in the 'BasicFileHandleOpt' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

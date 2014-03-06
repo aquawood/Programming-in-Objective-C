@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBA7BC0715E18B46001F6C9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA7BC0615E18B46001F6C9C /* Foundation.framework */; };
+		FBA7BC0A15E18B46001F6C9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA7BC0915E18B46001F6C9C /* main.m */; };
+		FBA7BC0E15E18B46001F6C9C /* NSNumbers.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBA7BC0D15E18B46001F6C9C /* NSNumbers.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBA7BC0015E18B46001F6C9C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FBA7BC0E15E18B46001F6C9C /* NSNumbers.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FBA7BC0215E18B46001F6C9C /* NSNumbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSNumbers; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA7BC0615E18B46001F6C9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBA7BC0915E18B46001F6C9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBA7BC0C15E18B46001F6C9C /* NSNumbers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumbers-Prefix.pch"; sourceTree = "<group>"; };
+		FBA7BC0D15E18B46001F6C9C /* NSNumbers.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSNumbers.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBA7BBFF15E18B46001F6C9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA7BC0715E18B46001F6C9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBA7BBF715E18B46001F6C9C = {
+			isa = PBXGroup;
+			children = (
+				FBA7BC0815E18B46001F6C9C /* NSNumbers */,
+				FBA7BC0515E18B46001F6C9C /* Frameworks */,
+				FBA7BC0315E18B46001F6C9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBA7BC0315E18B46001F6C9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBA7BC0215E18B46001F6C9C /* NSNumbers */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBA7BC0515E18B46001F6C9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBA7BC0615E18B46001F6C9C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBA7BC0815E18B46001F6C9C /* NSNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				FBA7BC0915E18B46001F6C9C /* main.m */,
+				FBA7BC0D15E18B46001F6C9C /* NSNumbers.1 */,
+				FBA7BC0B15E18B46001F6C9C /* Supporting Files */,
+			);
+			path = NSNumbers;
+			sourceTree = "<group>";
+		};
+		FBA7BC0B15E18B46001F6C9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBA7BC0C15E18B46001F6C9C /* NSNumbers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBA7BC0115E18B46001F6C9C /* NSNumbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA7BC1115E18B46001F6C9C /* Build configuration list for PBXNativeTarget "NSNumbers" */;
+			buildPhases = (
+				FBA7BBFE15E18B46001F6C9C /* Sources */,
+				FBA7BBFF15E18B46001F6C9C /* Frameworks */,
+				FBA7BC0015E18B46001F6C9C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSNumbers;
+			productName = NSNumbers;
+			productReference = FBA7BC0215E18B46001F6C9C /* NSNumbers */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBA7BBF915E18B46001F6C9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FBA7BBFC15E18B46001F6C9C /* Build configuration list for PBXProject "NSNumbers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBA7BBF715E18B46001F6C9C;
+			productRefGroup = FBA7BC0315E18B46001F6C9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBA7BC0115E18B46001F6C9C /* NSNumbers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBA7BBFE15E18B46001F6C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA7BC0A15E18B46001F6C9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBA7BC0F15E18B46001F6C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FBA7BC1015E18B46001F6C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FBA7BC1215E18B46001F6C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSNumbers/NSNumbers-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBA7BC1315E18B46001F6C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSNumbers/NSNumbers-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBA7BBFC15E18B46001F6C9C /* Build configuration list for PBXProject "NSNumbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA7BC0F15E18B46001F6C9C /* Debug */,
+				FBA7BC1015E18B46001F6C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA7BC1115E18B46001F6C9C /* Build configuration list for PBXNativeTarget "NSNumbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA7BC1215E18B46001F6C9C /* Debug */,
+				FBA7BC1315E18B46001F6C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBA7BBF915E18B46001F6C9C /* Project object */;
+}

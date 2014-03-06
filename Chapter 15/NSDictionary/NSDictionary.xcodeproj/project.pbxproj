@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBA7BC8115E5BB17001F6C9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA7BC8015E5BB17001F6C9C /* Foundation.framework */; };
+		FBA7BC8415E5BB17001F6C9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA7BC8315E5BB17001F6C9C /* main.m */; };
+		FBA7BC8815E5BB17001F6C9C /* NSDictionary.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBA7BC8715E5BB17001F6C9C /* NSDictionary.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBA7BC7A15E5BB17001F6C9C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FBA7BC8815E5BB17001F6C9C /* NSDictionary.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FBA7BC7C15E5BB17001F6C9C /* NSDictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSDictionary; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA7BC8015E5BB17001F6C9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBA7BC8315E5BB17001F6C9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBA7BC8615E5BB17001F6C9C /* NSDictionary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary-Prefix.pch"; sourceTree = "<group>"; };
+		FBA7BC8715E5BB17001F6C9C /* NSDictionary.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSDictionary.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBA7BC7915E5BB17001F6C9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA7BC8115E5BB17001F6C9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBA7BC7115E5BB16001F6C9C = {
+			isa = PBXGroup;
+			children = (
+				FBA7BC8215E5BB17001F6C9C /* NSDictionary */,
+				FBA7BC7F15E5BB17001F6C9C /* Frameworks */,
+				FBA7BC7D15E5BB17001F6C9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBA7BC7D15E5BB17001F6C9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBA7BC7C15E5BB17001F6C9C /* NSDictionary */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBA7BC7F15E5BB17001F6C9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBA7BC8015E5BB17001F6C9C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBA7BC8215E5BB17001F6C9C /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				FBA7BC8315E5BB17001F6C9C /* main.m */,
+				FBA7BC8715E5BB17001F6C9C /* NSDictionary.1 */,
+				FBA7BC8515E5BB17001F6C9C /* Supporting Files */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		FBA7BC8515E5BB17001F6C9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBA7BC8615E5BB17001F6C9C /* NSDictionary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBA7BC7B15E5BB17001F6C9C /* NSDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA7BC8B15E5BB17001F6C9C /* Build configuration list for PBXNativeTarget "NSDictionary" */;
+			buildPhases = (
+				FBA7BC7815E5BB17001F6C9C /* Sources */,
+				FBA7BC7915E5BB17001F6C9C /* Frameworks */,
+				FBA7BC7A15E5BB17001F6C9C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDictionary;
+			productName = NSDictionary;
+			productReference = FBA7BC7C15E5BB17001F6C9C /* NSDictionary */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBA7BC7315E5BB16001F6C9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FBA7BC7615E5BB16001F6C9C /* Build configuration list for PBXProject "NSDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBA7BC7115E5BB16001F6C9C;
+			productRefGroup = FBA7BC7D15E5BB17001F6C9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBA7BC7B15E5BB17001F6C9C /* NSDictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBA7BC7815E5BB17001F6C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA7BC8415E5BB17001F6C9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBA7BC8915E5BB17001F6C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FBA7BC8A15E5BB17001F6C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FBA7BC8C15E5BB17001F6C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDictionary/NSDictionary-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBA7BC8D15E5BB17001F6C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDictionary/NSDictionary-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBA7BC7615E5BB16001F6C9C /* Build configuration list for PBXProject "NSDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA7BC8915E5BB17001F6C9C /* Debug */,
+				FBA7BC8A15E5BB17001F6C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA7BC8B15E5BB17001F6C9C /* Build configuration list for PBXNativeTarget "NSDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA7BC8C15E5BB17001F6C9C /* Debug */,
+				FBA7BC8D15E5BB17001F6C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBA7BC7315E5BB16001F6C9C /* Project object */;
+}

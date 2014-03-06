@@ -1,0 +1,18 @@
+//
+//  Circle.h
+//  Rectangle
+//
+//  Created by Gong heng on 12-8-6.
+//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//
+
+#import "GraphicObject.h"
+
+@interface Circle : GraphicObject
+
+@property float radius;
+
+-(float) area;
+-(float) perimeter;
+
+@end

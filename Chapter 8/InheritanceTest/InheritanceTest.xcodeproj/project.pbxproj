@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBD5DAA815CF9AF30058CBD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD5DAA715CF9AF30058CBD4 /* Foundation.framework */; };
+		FBD5DAAB15CF9AF30058CBD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD5DAAA15CF9AF30058CBD4 /* main.m */; };
+		FBD5DAAF15CF9AF30058CBD4 /* InheritanceTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBD5DAAE15CF9AF30058CBD4 /* InheritanceTest.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBD5DAA115CF9AF30058CBD4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FBD5DAAF15CF9AF30058CBD4 /* InheritanceTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FBD5DAA315CF9AF30058CBD4 /* InheritanceTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InheritanceTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD5DAA715CF9AF30058CBD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBD5DAAA15CF9AF30058CBD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBD5DAAD15CF9AF30058CBD4 /* InheritanceTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InheritanceTest-Prefix.pch"; sourceTree = "<group>"; };
+		FBD5DAAE15CF9AF30058CBD4 /* InheritanceTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = InheritanceTest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD5DAA015CF9AF30058CBD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD5DAA815CF9AF30058CBD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBD5DA9815CF9AF30058CBD4 = {
+			isa = PBXGroup;
+			children = (
+				FBD5DAA915CF9AF30058CBD4 /* InheritanceTest */,
+				FBD5DAA615CF9AF30058CBD4 /* Frameworks */,
+				FBD5DAA415CF9AF30058CBD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD5DAA415CF9AF30058CBD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5DAA315CF9AF30058CBD4 /* InheritanceTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD5DAA615CF9AF30058CBD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5DAA715CF9AF30058CBD4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBD5DAA915CF9AF30058CBD4 /* InheritanceTest */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5DAAA15CF9AF30058CBD4 /* main.m */,
+				FBD5DAAE15CF9AF30058CBD4 /* InheritanceTest.1 */,
+				FBD5DAAC15CF9AF30058CBD4 /* Supporting Files */,
+			);
+			path = InheritanceTest;
+			sourceTree = "<group>";
+		};
+		FBD5DAAC15CF9AF30058CBD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5DAAD15CF9AF30058CBD4 /* InheritanceTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD5DAA215CF9AF30058CBD4 /* InheritanceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD5DAB215CF9AF30058CBD4 /* Build configuration list for PBXNativeTarget "InheritanceTest" */;
+			buildPhases = (
+				FBD5DA9F15CF9AF30058CBD4 /* Sources */,
+				FBD5DAA015CF9AF30058CBD4 /* Frameworks */,
+				FBD5DAA115CF9AF30058CBD4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InheritanceTest;
+			productName = InheritanceTest;
+			productReference = FBD5DAA315CF9AF30058CBD4 /* InheritanceTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD5DA9A15CF9AF30058CBD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FBD5DA9D15CF9AF30058CBD4 /* Build configuration list for PBXProject "InheritanceTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBD5DA9815CF9AF30058CBD4;
+			productRefGroup = FBD5DAA415CF9AF30058CBD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD5DAA215CF9AF30058CBD4 /* InheritanceTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD5DA9F15CF9AF30058CBD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD5DAAB15CF9AF30058CBD4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBD5DAB015CF9AF30058CBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FBD5DAB115CF9AF30058CBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FBD5DAB315CF9AF30058CBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InheritanceTest/InheritanceTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBD5DAB415CF9AF30058CBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InheritanceTest/InheritanceTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD5DA9D15CF9AF30058CBD4 /* Build configuration list for PBXProject "InheritanceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD5DAB015CF9AF30058CBD4 /* Debug */,
+				FBD5DAB115CF9AF30058CBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD5DAB215CF9AF30058CBD4 /* Build configuration list for PBXNativeTarget "InheritanceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD5DAB315CF9AF30058CBD4 /* Debug */,
+				FBD5DAB415CF9AF30058CBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBD5DA9A15CF9AF30058CBD4 /* Project object */;
+}

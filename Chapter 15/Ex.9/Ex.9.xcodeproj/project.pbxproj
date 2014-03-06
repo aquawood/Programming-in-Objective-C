@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBB0B8F215EB00580050EBB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB0B8F115EB00580050EBB4 /* Foundation.framework */; };
+		FBB0B8F515EB00580050EBB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB0B8F415EB00580050EBB4 /* main.m */; };
+		FBB0B8F915EB00580050EBB4 /* Ex_9.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBB0B8F815EB00580050EBB4 /* Ex_9.1 */; };
+		FBB0B90115EB00B40050EBB4 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB0B90015EB00B40050EBB4 /* Song.m */; };
+		FBB0B90415EB0A830050EBB4 /* playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB0B90315EB0A830050EBB4 /* playlist.m */; };
+		FBB0B90715EBFB350050EBB4 /* MusicCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB0B90615EBFB350050EBB4 /* MusicCollection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBB0B8EB15EB00580050EBB4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FBB0B8F915EB00580050EBB4 /* Ex_9.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FBB0B8ED15EB00580050EBB4 /* Ex.9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ex.9; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB0B8F115EB00580050EBB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBB0B8F415EB00580050EBB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBB0B8F715EB00580050EBB4 /* Ex.9-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ex.9-Prefix.pch"; sourceTree = "<group>"; };
+		FBB0B8F815EB00580050EBB4 /* Ex_9.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ex_9.1; sourceTree = "<group>"; };
+		FBB0B8FF15EB00B40050EBB4 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		FBB0B90015EB00B40050EBB4 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		FBB0B90215EB0A830050EBB4 /* playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playlist.h; sourceTree = "<group>"; };
+		FBB0B90315EB0A830050EBB4 /* playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playlist.m; sourceTree = "<group>"; };
+		FBB0B90515EBFB350050EBB4 /* MusicCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCollection.h; sourceTree = "<group>"; };
+		FBB0B90615EBFB350050EBB4 /* MusicCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCollection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBB0B8EA15EB00580050EBB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB0B8F215EB00580050EBB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBB0B8E215EB00580050EBB4 = {
+			isa = PBXGroup;
+			children = (
+				FBB0B8F315EB00580050EBB4 /* Ex.9 */,
+				FBB0B8F015EB00580050EBB4 /* Frameworks */,
+				FBB0B8EE15EB00580050EBB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBB0B8EE15EB00580050EBB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBB0B8ED15EB00580050EBB4 /* Ex.9 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBB0B8F015EB00580050EBB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBB0B8F115EB00580050EBB4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBB0B8F315EB00580050EBB4 /* Ex.9 */ = {
+			isa = PBXGroup;
+			children = (
+				FBB0B8F415EB00580050EBB4 /* main.m */,
+				FBB0B90515EBFB350050EBB4 /* MusicCollection.h */,
+				FBB0B90615EBFB350050EBB4 /* MusicCollection.m */,
+				FBB0B90215EB0A830050EBB4 /* playlist.h */,
+				FBB0B90315EB0A830050EBB4 /* playlist.m */,
+				FBB0B8FF15EB00B40050EBB4 /* Song.h */,
+				FBB0B90015EB00B40050EBB4 /* Song.m */,
+				FBB0B8F815EB00580050EBB4 /* Ex_9.1 */,
+				FBB0B8F615EB00580050EBB4 /* Supporting Files */,
+			);
+			path = Ex.9;
+			sourceTree = "<group>";
+		};
+		FBB0B8F615EB00580050EBB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBB0B8F715EB00580050EBB4 /* Ex.9-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBB0B8EC15EB00580050EBB4 /* Ex.9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB0B8FC15EB00580050EBB4 /* Build configuration list for PBXNativeTarget "Ex.9" */;
+			buildPhases = (
+				FBB0B8E915EB00580050EBB4 /* Sources */,
+				FBB0B8EA15EB00580050EBB4 /* Frameworks */,
+				FBB0B8EB15EB00580050EBB4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ex.9;
+			productName = Ex.9;
+			productReference = FBB0B8ED15EB00580050EBB4 /* Ex.9 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBB0B8E415EB00580050EBB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Gong heng";
+			};
+			buildConfigurationList = FBB0B8E715EB00580050EBB4 /* Build configuration list for PBXProject "Ex.9" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBB0B8E215EB00580050EBB4;
+			productRefGroup = FBB0B8EE15EB00580050EBB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBB0B8EC15EB00580050EBB4 /* Ex.9 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB0B8E915EB00580050EBB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB0B8F515EB00580050EBB4 /* main.m in Sources */,
+				FBB0B90115EB00B40050EBB4 /* Song.m in Sources */,
+				FBB0B90415EB0A830050EBB4 /* playlist.m in Sources */,
+				FBB0B90715EBFB350050EBB4 /* MusicCollection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBB0B8FA15EB00580050EBB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FBB0B8FB15EB00580050EBB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FBB0B8FD15EB00580050EBB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ex.9/Ex.9-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBB0B8FE15EB00580050EBB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ex.9/Ex.9-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBB0B8E715EB00580050EBB4 /* Build configuration list for PBXProject "Ex.9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB0B8FA15EB00580050EBB4 /* Debug */,
+				FBB0B8FB15EB00580050EBB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB0B8FC15EB00580050EBB4 /* Build configuration list for PBXNativeTarget "Ex.9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB0B8FD15EB00580050EBB4 /* Debug */,
+				FBB0B8FE15EB00580050EBB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBB0B8E415EB00580050EBB4 /* Project object */;
+}
